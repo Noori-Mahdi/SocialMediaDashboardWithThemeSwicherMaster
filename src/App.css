@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@700&family=Rubik:wght@300;400;500&display=swap');
+
+body {
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+@media only screen and (min-width : 766px) {
+    /* your desktop css */
+    body {
+        height: 100vh;
+    }
+}
+
+#root {
+    width: 100%;
+    height: 100%;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 0;
+}
+
+.mainPage{
+    width: 100%;
+    height: 100%;
+    padding: 30px 40px;
+
+}
+
+header{
+    margin-bottom: 20px;
+}
+
+img{
+    margin-right: 5px;
+}
+
+.postive{
+    color: hsl(163, 72%, 41%);
+}
+
+.negative{
+    color: hsl(356, 69%, 56%);
+}
+
+header div:nth-child(1) span{
+    letter-spacing: .05rem;
+}
+
+header .buttonBx{
+    position: relative;
+    width: 40px;
+    height: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, hsl(210, 78%, 56%),hsl(146, 68%, 55%));
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+header .buttonBx div{
+    margin: 2px;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+}
+
+header .buttonBx .active{
+    margin-left: auto;
+}
+
+.socialMedia{
+    position: relative;
+    margin-bottom: 10px;
+    padding: 20px 30px;
+    text-align: center;
+    cursor: pointer;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.socialMedia .bgBx{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 4px;
+}
+
+
+.socialMedia .text {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: .2rem;
+}
+
+.socialMedia div:nth-child(2){
+    font-size: 12px;
+    margin-bottom: 15px;
+    text-transform: none;
+}
+
+.socialMedia .status{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.socialMedia h5{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+
+.overview{
+    margin-top: 20px;
+}
+
+.overview div{
+    margin-bottom: 10px;
+}
+
+.overview div:nth-child(1) span{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.overviewCard{
+    border-radius: 4px;
+    padding:15px 20px;
+    cursor: pointer;
+}
+
+.overviewCard div:nth-child(1) span{
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.overviewCard div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.overviewCard div:nth-child(2) span{
+    font-size: 24px;
+}
+
+.overviewCard div:nth-child(2) div span{
+    font-size: 11px;
+    font-weight: 500;
+}
